@@ -6,7 +6,7 @@
     "icons": {
         "48": "icons/grindset_32.png"
     },
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab","https://leetcode.com/"],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
