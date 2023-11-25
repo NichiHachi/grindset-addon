@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GRINDSET</title>
+  <script src="popup.js"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <h2>GRINDSET</h2> 
+  <div class="icon-text-container">
+    <a href="https://github.com/NichiHachi/grindset-addon">
+      <img src="icons/github_512.png" alt="Icon" class="icon iconGit">
+    </a>
+  </div>
+
+  <div class="box">
+    <div class="icon-text-container">
+      <img src="icons/grindset_32.png" alt="Icon" class="icon">
+      <div id="chadWisdom" class="chad-wisdom"></div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="title">
+      <h3>Blacklist words</h3>
+    </div>
+    <div class="element">
+      <textarea class="text" id="blackList" spellcheck="false"></textarea>
+      <input type="checkbox" class="checkbox" id="blackListOnly">
+      <label for="blackListOnly">Only use this blacklist</label>
+    </div>
+  </div>
+
+  <div class="box">
+  <div class="title">
+      <h3>Detection sensitivity</h3>
+    </div>
+    <div class="element">
+    <div class="slider-container">
+      <input type="range" min="1" max="50" value="25" class="slider" id="sensitivity">
+      <p id="sensitivityText"></p>
+    </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="title">
+      <h3>Whitelist URL</h3>
+    </div>
+    <div class="element">
+      <textarea class="text" id="whiteList" spellcheck="false"></textarea>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="title">
+      <h3>Redirect URL</h3>
+    </div>
+    <div class="element">
+      <textarea class="text oneRow" rows="1" id="redirectURL" spellcheck="false"></textarea>
+    </div>
+  </div>
+</body>
+
+</html>

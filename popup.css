@@ -1,0 +1,78 @@
+body {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background-color: #eee;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: start;
+}
+
+.icon {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.iconGit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.chad-wisdom {
+  width: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+
+.box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.title h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.element>* {
+  margin-top: 15px;
+}
+
+.element p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.text {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ddd;
+  text-align: left;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.oneRow {
+  height: 25px;
+}
+.slider {
+  width: 100%;
+}
