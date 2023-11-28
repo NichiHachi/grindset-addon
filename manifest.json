@@ -1,10 +1,12 @@
 {
     "manifest_version": 2,
     "name": "Grindset",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Stop procrastinating, happiness is temporary but knowledge is eternal.",
     "icons": {
-        "48": "icons/grindset_32.png"
+        "32": "icons/grindset_32.png",
+        "64": "icons/grindset_64.png",
+        "96": "icons/grindset_96.png"
     },
     "permissions": ["activeTab","https://leetcode.com/","storage"],
     "content_scripts": [
