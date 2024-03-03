@@ -32,7 +32,7 @@ window.onload = function () {
   sensitivityTextChange(document.getElementById('sensitivity').value);
 
   // Print a random wisdom from the json list. 
-  fetch('wisdoms.json')
+  fetch('../../data/wisdoms.json')
     .then(response => response.json())
     .then(data => {
       chadWisdom.innerHTML = data.listOfWisdoms[Math.floor(Math.random() * data.listOfWisdoms.length)];
